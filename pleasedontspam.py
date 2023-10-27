@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import metrics
 from sklearn.feature_extraction.text import CountVectorizer
 
-df = pd.read_csv('data.csv')
+df = pd.read_csv('spamdata.csv')
 
 X = df['text']
 y = df['label']
